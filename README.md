@@ -33,7 +33,7 @@ na raiz do projeto.
 
 ## Autoria
 Substitua os nomes abaixo:
-- Desenvolvido por: [Seu Nome] e [Nome do Colega]
+- Desenvolvido por: Heron Zonta
 
 ## Licença
 Uso educativo / não comercial.
