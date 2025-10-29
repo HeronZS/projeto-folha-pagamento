@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Sistema de Folha de Pagamento</h1>
-        <p class="subtitle">Programação Funcional - Cálculo de INSS e IR por Faixas</p>
+        <p class="subtitle">Cálculo de INSS e IR por Faixas</p>
 
         <?php if (isset($result) && !$result['success']): ?>
             <div class="alert alert-error">
@@ -23,7 +23,7 @@
             </div>
 
             <div class="results-section">
-                <h2>📊 Resultados da Folha de Pagamento</h2>
+                <h2>Resultados da Folha de Pagamento</h2>
 
                 <table class="results-table">
                     <thead>
@@ -55,7 +55,7 @@
                 </table>
 
                 <div class="cost-center-section">
-                    <h3>📈 Totais por Centro de Custo</h3>
+                    <h3>Totais por Centro de Custo</h3>
                     <table class="results-table">
                         <thead>
                             <tr>
@@ -97,7 +97,7 @@
                 <div id="employeesContainer">
                     <!-- Um bloco inicial para o primeiro funcionário (name index 0) -->
                     <div class="employee-section" data-employee-index="0">
-                        <h3>👤 Funcionário #1</h3>
+                        <h3>Funcionário #1</h3>
                         <div class="form-grid">
                             <div class="form-group">
                                 <label for="name_0">Nome *</label>
@@ -145,7 +145,6 @@
 
         <div class="footer" role="contentinfo">
             <p>Desenvolvido por: Heron Zonta da Silva</p>
-            <p>Regras: funções puras, imutabilidade, uso de map/filter/reduce no backend</p>
         </div>
     </div>
 
